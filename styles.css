@@ -110,9 +110,10 @@ footer{
   nav{
     border-right: none;
     border-bottom: 1px solid #ddd;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
+  }
+  nav li{
+    display: inline-block;
+    margin-right: 1rem;
   }
   article h2{
     font-size: 2rem;
